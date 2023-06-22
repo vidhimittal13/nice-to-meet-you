@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nice To Meet You!</title>
+        <link rel = "stylesheet" href="style.css">
+    </head>
+    <body>
+        <form method = "POST" action = "connections.php">
+            <label>First Name: </label><br>
+            <input type = "text" name = "FirstName" placeholder="Example: Vidhi" /> <br>
+
+            <label>Last Name: </label><br>
+            <input type = "text" name = "LastName" placeholder="Example: Mittal" /> <br>
+
+            <label>Company Name: </label><br>
+            <input type = "text" name = "CompanyName" placeholder="Example: Palantir" /> <br>
+
+            <label>Location: </label><br>
+            <input type = "text" name = "Location" placeholder="Example: New York" /> <br>
+
+            <label>Email: </label><br>
+            <input type = "text" name = "Email" placeholder="Example: vidhi@gmail.com" /> <br>
+
+            <label>Notes: </label><br>
+            <input type = "text" name = "Notes" placeholder="Example: Curly hair!" /> <br>
+            
+            <button> Submit </button>
+        </form>
+
+        <br>
+        
+        <form method="POST" action = "displayConnections.php">
+            <label> View Current Connections</label>
+            <button> Submit </button>
+        
+        </form>
+        
+    </body>
+</html>
